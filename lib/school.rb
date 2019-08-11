@@ -4,7 +4,7 @@ class School
     @roster = {}
   end
 
-  def roster
+  def roster #attr_reader
     @roster
   end
 end
