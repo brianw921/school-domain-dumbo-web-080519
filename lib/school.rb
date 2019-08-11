@@ -8,6 +8,10 @@ class School
     @roster
   end
 
+  def name
+    @name
+  end
+
   def add_student(name,grade)
     if @roster.has_key?(grade)
       @roster[grade] << name
